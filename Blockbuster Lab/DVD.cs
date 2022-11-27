@@ -15,12 +15,24 @@ namespace Blockbuster_Lab
 
         public override void Play()
         {
-            PrintScenes(Scenes);
+            try
+            {
+                PrintScenes(Scenes);
 
-            Console.WriteLine($"\nWhich scene would you like to watch? Please select from 0 to {Scenes.Count-1}");
-            int scene = int.Parse(Console.ReadLine());
-            Console.WriteLine(Scenes[scene]);
-            
+                Console.WriteLine($"\nWhich scene would you like to watch? Please select from 0 to {Scenes.Count - 1}");
+                int scene = int.Parse(Console.ReadLine());
+                Console.WriteLine(Scenes[scene]);
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine("That was an invalid input. Try again.");
+                Play();
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                Console.WriteLine("That value was outside the given range. Try again.");
+                Play();
+            }
         }
 
         public override void Rewind()

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abilena\\source\\repos\\Week 3\\Blockbuster Lab\\Blockbuster Lab\\Blockbuster Lab.csproj": {}
+    "C:\\Users\\Abilena\\source\\repos\\Week 3\\Labs\\Blockbuster Lab\\Blockbuster Lab\\Blockbuster Lab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abilena\\source\\repos\\Week 3\\Blockbuster Lab\\Blockbuster Lab\\Blockbuster Lab.csproj": {
+    "C:\\Users\\Abilena\\source\\repos\\Week 3\\Labs\\Blockbuster Lab\\Blockbuster Lab\\Blockbuster Lab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abilena\\source\\repos\\Week 3\\Blockbuster Lab\\Blockbuster Lab\\Blockbuster Lab.csproj",
+        "projectUniqueName": "C:\\Users\\Abilena\\source\\repos\\Week 3\\Labs\\Blockbuster Lab\\Blockbuster Lab\\Blockbuster Lab.csproj",
         "projectName": "Blockbuster Lab",
-        "projectPath": "C:\\Users\\Abilena\\source\\repos\\Week 3\\Blockbuster Lab\\Blockbuster Lab\\Blockbuster Lab.csproj",
+        "projectPath": "C:\\Users\\Abilena\\source\\repos\\Week 3\\Labs\\Blockbuster Lab\\Blockbuster Lab\\Blockbuster Lab.csproj",
         "packagesPath": "C:\\Users\\Abilena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abilena\\source\\repos\\Week 3\\Blockbuster Lab\\Blockbuster Lab\\obj\\",
+        "outputPath": "C:\\Users\\Abilena\\source\\repos\\Week 3\\Labs\\Blockbuster Lab\\Blockbuster Lab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

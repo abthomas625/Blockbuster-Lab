@@ -35,12 +35,10 @@
                 else
                 {
                     movieChoice.Play();
-                    Console.WriteLine($"Would you like to rewind the {movieChoice.Title} and watch again? Y/N");
+                    Console.WriteLine($"Would you like to watch {movieChoice.Title} again? Y/N");
                     string playVHSAgain = Console.ReadLine().Trim().ToLower();
                     if(playVHSAgain == "y")
                     {
-                        //Had to create abstract method in movie then override in VHS to get Rewind to work
-                        movieChoice.Rewind();
                         movieChoice.Play();
                     }
                     else if (playVHSAgain == "n")

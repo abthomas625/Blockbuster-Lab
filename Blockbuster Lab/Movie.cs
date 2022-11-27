@@ -28,7 +28,7 @@ namespace Blockbuster_Lab
             this.Scenes = Scenes;
         }
 
-        public void PrintInfo()
+        public virtual void PrintInfo()
         {
             Console.WriteLine($"\nTitle: {Title}, Genre: {Category}, Run Time: {RunTime}");
         }
